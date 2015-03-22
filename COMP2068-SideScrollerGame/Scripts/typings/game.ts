@@ -1,26 +1,25 @@
-﻿/// <reference path="typings/createjs-lib/createjs-lib.d.ts" />
-/// <reference path="typings/easeljs/easeljs.d.ts" />
-/// <reference path="typings/tweenjs/tweenjs.d.ts" />
-/// <reference path="typings/soundjs/soundjs.d.ts" />
-/// <reference path="typings/preloadjs/preloadjs.d.ts" />
-/// <reference path="typings/stats/stats.d.ts" />
-
-
+﻿/// <reference path="easeljs/easeljs.d.ts" />
+/// <reference path="createjs-lib/createjs-lib.d.ts" />
+/// <reference path="preloadjs/preloadjs.d.ts" />
+/// <reference path="stats/stats.d.ts" />
+/// <reference path="tweenjs/tweenjs.d.ts" />
+/// <reference path="soundjs/soundjs.d.ts" />
+/// <reference path="webaudioapi/waa.d.ts" />
 /// <reference path="constants.ts" />
-/// <reference path="objects/gameobject.ts" />
-/// <reference path="objects/space.ts" />
-/// <reference path="objects/spaceshuttle.ts" />
-/// <reference path="objects/smallinsect.ts" />
-/// <reference path="objects/biginsect.ts" />
-/// <reference path="objects/fuel.ts" />
-/// <reference path="objects/label.ts" />
-/// <reference path="objects/button.ts" />
 
-/// <reference path="objects/scoreboard.ts" />
+/// <reference path="../objects/runningpath.ts" />
+/// <reference path="../objects/hero.ts" />
+/// <reference path="../objects/gameobject.ts" />
+/// <reference path="../objects/enemycar.ts" />
+/// <reference path="../objects/scoreboard.ts" />
+/// <reference path="../objects/label.ts" />
+/// <reference path="../objects/fuel.ts" />
+/// <reference path="../objects/button.ts" />
 
-/// <reference path="states/gameover.ts" />
-/// <reference path="states/play.ts" />
-/// <reference path="states/menu.ts" />
+/// <reference path="../states/gameover.ts" />
+/// <reference path="../states/play.ts" />
+
+/// <reference path="../states/menu.ts" />
 
 
 
